@@ -39,8 +39,29 @@ main {
     margin: auto;
 }
 
+.button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main-color {
+    background-color: #47AEF1;
+    color: #fff;
+}
+
+.secondary-color {
+    border: 2px solid #D3D8DB;
+    color: #D3D8DB;
+}
+
 /* Buttons section */
 
 .buttons-section {
-    height: 150px;
+    border-bottom: 2px solid #F5F8F9;
+    padding: 20px 50px;
 }
+
+To-do section
