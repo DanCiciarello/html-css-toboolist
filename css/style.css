@@ -20,7 +20,7 @@ h1 {
 
 header {
     height: 80px;
-    padding: 10px 0 0 10px;
+    padding: 12px 0 0 20px;
     background-color: #fff;
 }
 
@@ -30,12 +30,12 @@ header img {
 
 .text-logo {
     font-size: 40px;
+    margin-left: 5px;
 }
 
 /* Main */
 
 main {
-    background-color: #F5F8F9;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -43,7 +43,7 @@ main {
 /* To-do Box */
 
 .to-do-box {
-    width: 1000px;
+    width: 900px;
     border-radius: 10px;
     background-color: #fff;
     margin: auto;
@@ -53,8 +53,8 @@ main {
     padding: 8px 15px;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: 900;
 }
 
 .main-color {
@@ -77,7 +77,7 @@ main {
 /* To-do section */
 
 .to-do-section {
-    padding: 50px 50px 20px 50px;
+    padding: 40px 50px 0 50px;
 }
 
 .list-section {
@@ -93,14 +93,21 @@ main {
 
 .icon {
     border: 1px solid #000;
-    padding: 2px 5px;
+    padding: 2px 4px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 7px;
+    font-size: 10px;
+    vertical-align: middle;
 }
 
 .done {
-    border-color: green;
-    color: green;
+    border-color: #83CDBA;
+    color: #83CDBA;
+}
+
+.undone {
+    border-color: #F17269;
+    color: #F17269;
 }
 
 .chip {
@@ -110,6 +117,7 @@ main {
     font-size: 10px;
     border-radius: 10px;
     margin-left: 5px;
+    vertical-align: middle;
 }
 
 .blue {
@@ -126,4 +134,12 @@ main {
 
 .orange {
     background-color: #F29E33;
+}
+
+.pink {
+    background-color: #D763A1;
+}
+
+.lime {
+    background-color: #B1C925;
 }
