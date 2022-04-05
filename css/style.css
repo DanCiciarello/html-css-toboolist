@@ -1,0 +1,46 @@
+/* General */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Header */
+
+header {
+    height: 80px;
+    padding: 10px 0 0 10px;
+}
+
+header img {
+    vertical-align: top;
+}
+
+.text-logo {
+    font-size: 40px;
+}
+
+/* Main */
+
+main {
+    background-color: #F5F8F9;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* To-do Box */
+
+.to-do-box {
+    width: 1000px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: auto;
+}
+
+/* Buttons section */
+
+.buttons-section {
+    height: 150px;
+}
